@@ -184,10 +184,6 @@ During Hack Day we took the ClawBack prototype (document reading, ledger and cla
 
 ## Working Application
 
-**Live Application:** https://YOUR-APP.onrender.com
-
-Open the link and click **Try the live demo** to get a private sandbox with the demo exporter, or **Create a free account** to start with an empty workspace. Things to try:
-
 1. **Portfolio:** ₹2.85 crore recoverable across 6 buyers, ranked by amount × leverage, with the live interest ticker.
 2. **Buyers → Brightwater Home Supply → Absorption ledger:** click any number to see its source line.
 3. **Negotiation tab:** refund clock, settlement ladder, objection rebuttals, buyer link and **Share on WhatsApp**.
@@ -195,15 +191,12 @@ Open the link and click **Try the live demo** to get a private sandbox with the 
 5. Open the **buyer link** in a private window, choose Option C, and watch the buyer move to *Settled* in the **Recovery pipeline**.
 6. **Intake:** upload any file from the `demo/extra` folder or paste the email in `demo/try-pasting-this-email.txt`.
 
-The service runs on an always-on Render instance. Documents are read by Gemma 4 through Google AI Studio; the very first demo after a deployment takes a few minutes while Gemma reads the 30 demo documents, and every demo after that loads instantly from the cache.
-
-The submitted application should be functional and accessible through the provided link where applicable.
 
 ## Demo Video
 
 **Demo Video:** https://drive.google.com/file/d/1-Rn2jZFy0Zqt1VkTu9YMAuCvZag_VCrS/view?usp=sharing
 
-A 3-minute walkthrough: the problem and the ₹2.85 crore portfolio, uploading a phone photo of an invoice, click-to-proof on the ledger, the calculation receipt, correcting a value, the refund clock and live interest ticker, the settlement ladder and an objection rebuttal, the claim pack, sending the buyer link on WhatsApp, the buyer accepting Option C, and the pipeline updating.
+A 1-minute walkthrough: the problem and the ₹2.85 crore portfolio, uploading a phone photo of an invoice, click-to-proof on the ledger, the calculation receipt, correcting a value, the refund clock and live interest ticker, the settlement ladder and an objection rebuttal, the claim pack, sending the buyer link on WhatsApp, the buyer accepting Option C, and the pipeline updating.
 
 ## Open Source and AI Usage
 
