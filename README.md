@@ -183,7 +183,11 @@ During Hack Day we took the ClawBack prototype (document reading, ledger and cla
 - **Designing the ask, not just the number.** Talking through buyer objections taught us that a "credit on the next order" option is more persuasive than a cash demand.
 
 ## Working Application
+**Live Application:** https://clawback-ynt3.onrender.com
 
+Open the link and click **Try the live demo** to get a private sandbox with the demo exporter, or **Create a free account** to start with an empty workspace.
+
+Things to try:
 1. **Portfolio:** ₹2.85 crore recoverable across 6 buyers, ranked by amount × leverage, with the live interest ticker.
 2. **Buyers → Brightwater Home Supply → Absorption ledger:** click any number to see its source line.
 3. **Negotiation tab:** refund clock, settlement ladder, objection rebuttals, buyer link and **Share on WhatsApp**.
