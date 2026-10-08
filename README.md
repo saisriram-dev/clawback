@@ -201,7 +201,7 @@ The submitted application should be functional and accessible through the provid
 
 ## Demo Video
 
-**Demo Video:** https://YOUR-VIDEO-LINK
+**Demo Video:** https://drive.google.com/file/d/1-Rn2jZFy0Zqt1VkTu9YMAuCvZag_VCrS/view?usp=sharing
 
 A 3-minute walkthrough: the problem and the ₹2.85 crore portfolio, uploading a phone photo of an invoice, click-to-proof on the ledger, the calculation receipt, correcting a value, the refund clock and live interest ticker, the settlement ladder and an objection rebuttal, the claim pack, sending the buyer link on WhatsApp, the buyer accepting Option C, and the pipeline updating.
 
@@ -275,8 +275,6 @@ npm run dev               # development mode with hot reload
 npm test                  # 37 automated tests
 ```
 
-Deploying to Render: push the repository to GitHub, then in Render choose **New → Blueprint**, select the repository and paste your Google AI Studio key; `render.yaml` creates an always-on Starter service with a persistent disk. Step-by-step instructions are in [`docs/DEPLOY.md`](docs/DEPLOY.md); the team's commit workflow is in [`docs/TEAM-COMMITS.md`](docs/TEAM-COMMITS.md).
-
 ### Usage
 
 1. Open the app and click **Create a free account** (or **Try the live demo**).
@@ -286,11 +284,6 @@ Deploying to Render: push the repository to GitHub, then in Render choose **New 
 5. In **Negotiation**, pick the settlement option to lead with and share the buyer link on WhatsApp or email; print the **Claim pack** as a PDF.
 6. Track replies in the **Recovery pipeline**.
 
-## Devpost Submission
-
-**Devpost Project:** https://devpost.com/software/YOUR-PROJECT
-
-Our Devpost page includes the project description, the live link, the demo video, screenshots and the team details.
 
 ## Credits and License
 
@@ -308,25 +301,6 @@ ClawBack is negotiation support, not legal advice.
 ### License
 
 MIT License. See [`LICENSE`](LICENSE).
-
-## Submission Checklist
-
-- [x] Project title and description added
-- [x] All team members listed
-- [x] Problem clearly explained
-- [x] Reason for choosing the problem explained
-- [x] Solution and key features documented
-- [x] Innovation and differentiation explained
-- [x] Architecture included
-- [x] Technical implementation documented
-- [x] Work completed during the hackathon documented
-- [x] Team contributions documented
-- [x] Working application is functional
-- [ ] Live application link added where applicable
-- [ ] Demo video added
-- [x] AI and open-source components documented
-- [x] Setup and usage instructions tested
-- [x] Challenges and learnings documented
 - [ ] Devpost submission completed
 - [ ] Devpost link added
 - [x] Credits added
