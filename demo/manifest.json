@@ -1,0 +1,144 @@
+{
+  "exporter": {
+    "name": "Kaveri Looms Pvt Ltd",
+    "address": [
+      "14/2 Mill Road, Karur 639002",
+      "Tamil Nadu, India"
+    ],
+    "iec": "AAHCK4412M",
+    "gstin": "33AAHCK4412M1Z5",
+    "email": "senthil@kaveriloom.example",
+    "signatory": "R. Senthil Kumar",
+    "title": "Director"
+  },
+  "buyers": [
+    {
+      "name": "Brightwater Home Supply Inc.",
+      "slug": "brightwater",
+      "files": [
+        "brightwater/invoice-097.pdf",
+        "brightwater/invoice-118.pdf",
+        "brightwater/invoice-124.pdf",
+        "brightwater/invoice-131.pdf",
+        "brightwater/invoice-142.pdf",
+        "brightwater/price-revision-brightwater.eml",
+        "brightwater/ebrc-export-brightwater.csv"
+      ],
+      "profile": {
+        "revenueSharePct": 22,
+        "relationshipSinceYear": 2014,
+        "openOrders": true
+      },
+      "transitDays": null,
+      "contactName": "Dana Whitfield",
+      "contactEmail": "dana.whitfield@brightwaterhome.example"
+    },
+    {
+      "name": "Cedar & Finch Living LLC",
+      "slug": "cedar-finch",
+      "files": [
+        "cedar-finch/invoice-121.pdf",
+        "cedar-finch/invoice-129.pdf",
+        "cedar-finch/invoice-137.pdf",
+        "cedar-finch/price-revision-cedar-finch.eml",
+        "cedar-finch/fira-121.pdf",
+        "cedar-finch/fira-129.pdf"
+      ],
+      "profile": {
+        "revenueSharePct": 9,
+        "relationshipSinceYear": 2019,
+        "openOrders": true
+      },
+      "transitDays": null,
+      "contactName": "Marcus Lyle",
+      "contactEmail": "marcus.lyle@cedarfinch.example"
+    },
+    {
+      "name": "Palisade Hospitality Linens Corp",
+      "slug": "palisade",
+      "files": [
+        "palisade/invoice-115.pdf",
+        "palisade/invoice-127.pdf",
+        "palisade/price-revision-palisade.eml",
+        "palisade/ebrc-115.pdf"
+      ],
+      "profile": {
+        "revenueSharePct": 15,
+        "relationshipSinceYear": 2017,
+        "openOrders": false
+      },
+      "transitDays": null,
+      "contactName": "Rita Okafor",
+      "contactEmail": "rita.okafor@palisadelinens.example"
+    },
+    {
+      "name": "Northgate Retail Group Inc.",
+      "slug": "northgate",
+      "files": [
+        "northgate/invoice-104.pdf",
+        "northgate/invoice-123.pdf",
+        "northgate/invoice-135.pdf",
+        "northgate/price-revision-northgate.eml"
+      ],
+      "profile": {
+        "revenueSharePct": 6,
+        "relationshipSinceYear": 2021,
+        "openOrders": true
+      },
+      "transitDays": null,
+      "contactName": "Ben Carrow",
+      "contactEmail": "ben.carrow@northgateretail.example"
+    },
+    {
+      "name": "Marisol Kitchen Co.",
+      "slug": "marisol",
+      "files": [
+        "marisol/invoice-119.pdf",
+        "marisol/invoice-140.pdf",
+        "marisol/price-revision-marisol.eml"
+      ],
+      "profile": {
+        "revenueSharePct": 4,
+        "relationshipSinceYear": 2020,
+        "openOrders": null
+      },
+      "transitDays": 24,
+      "contactName": "Lucia Ferrer",
+      "contactEmail": "lucia.ferrer@marisolkitchen.example"
+    },
+    {
+      "name": "Kestrel Bay Trading Inc.",
+      "slug": "kestrel-bay",
+      "files": [
+        "kestrel-bay/invoice-120.pdf",
+        "kestrel-bay/invoice-133.pdf",
+        "kestrel-bay/price-revision-kestrel-bay.eml",
+        "kestrel-bay/cape-refund-confirmation.pdf"
+      ],
+      "profile": {
+        "revenueSharePct": 7,
+        "relationshipSinceYear": 2018,
+        "openOrders": true
+      },
+      "transitDays": null,
+      "contactName": "Owen Park",
+      "contactEmail": "owen.park@kestrelbay.example"
+    },
+    {
+      "name": "Bluestem Outfitters LLC",
+      "slug": "bluestem",
+      "files": [
+        "bluestem/invoice-125.pdf",
+        "bluestem/invoice-138.pdf"
+      ],
+      "profile": {
+        "revenueSharePct": 5,
+        "relationshipSinceYear": 2022,
+        "openOrders": true
+      },
+      "transitDays": null,
+      "contactName": "Hannah Voss",
+      "contactEmail": "hannah.voss@bluestemoutfitters.example"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+data/
+*.log
+.env
+.env.local
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Team-only study notes and shared zips (keep out of the public repo)
+docs/ClawBack-Study-Guide.docx
+/*.zip

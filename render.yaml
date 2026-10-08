@@ -1,0 +1,38 @@
+# Render Blueprint: Render reads this file when you choose New > Blueprint and pick this repository.
+# Paid Starter instance: always on (no sleeping), plus a 1 GB persistent disk so accounts,
+# workspaces, uploads and the Gemma cache survive restarts and redeploys.
+# Cost: Starter $7/month + disk $0.25/GB/month, billed from your Render credit.
+services:
+  - type: web
+    name: clawback
+    runtime: node
+    plan: starter
+    region: singapore
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start:render
+    healthCheckPath: /api/health
+    autoDeploy: true
+    disk:
+      name: clawback-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      # Accounts, workspaces, uploads and the extraction cache live on the persistent disk.
+      - key: CLAWBACK_DATA_DIR
+        value: /var/data
+      # Signs the login cookies. Render generates a random value once.
+      - key: AUTH_SECRET
+        generateValue: true
+      # Gemma reads every document; the deterministic rules engine cross-checks it.
+      - key: CLAWBACK_ENGINE_MODE
+        value: auto
+      # Gemma 4 through Google AI Studio (the Gemini API).
+      - key: GEMMA_PROVIDER
+        value: google
+      - key: GEMMA_MODEL
+        value: gemma-4-26b-a4b-it
+      # Paste your key from https://aistudio.google.com/apikey when Render asks for it.
+      - key: GEMMA_API_KEY
+        sync: false
